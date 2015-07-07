@@ -26,7 +26,8 @@ def main():
     if (len(records) > 0):
         #lircを実行
         try:
-            output = subprocess.check_output('irsend SEND_ONCE aircon on')
+            cmd = 'irsend SEND_ONCE aircon on'
+            output = subprocess.check_output(cmd.strip().split(' '))
             print('Info: irsend Success!')
         except:
             print(output)
