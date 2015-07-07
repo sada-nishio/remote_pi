@@ -48,6 +48,7 @@ def main():
             return 1
 
         print('Info: success!!.')
+        #正常終了
         return 0
     else:
         print('Info: no records.')
