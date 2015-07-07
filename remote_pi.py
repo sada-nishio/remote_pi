@@ -7,8 +7,8 @@ import sys
 
 def main():
     #kintoneの認証情報
-    domain = 'hw1xj.cybozu.com'
-    token = 'oBYHrhxrC3l5FyL8wMlJK2ilNzLahiJp8pLG1Ser'
+    domain = 'example.cybozu.com'
+    token = ''
     app = 329
     query = 'flag in ("まだ！！")'
 
